@@ -25,7 +25,7 @@ SECRET_KEY = '$!n+)az@yv-wwx+6=wjs^pejik*x1q(c+_(njc^gd$qtgm(i!v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['test.fooodie.store', '13.126.214.255']
+ALLOWED_HOSTS = ['test.fooodie.store']
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
